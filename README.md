@@ -1,2 +1,2 @@
 # capstone_project
- An Event ticket generator form
+ An Event ticket generator form website
