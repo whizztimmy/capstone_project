@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router";
   import Form from "../pages/Form";
   import ticket from "../pages/ticket";
+  import ProtectedRoute from "../components/ProtectedRoute";
 
   
 const router = createBrowserRouter([
@@ -10,7 +11,7 @@ const router = createBrowserRouter([
     },
     {
       path: "/ticket",
-      Component: ticket
+      Component: ticket  
     }
   ]);
 
