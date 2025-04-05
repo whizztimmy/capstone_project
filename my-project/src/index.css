@@ -1,4 +1,12 @@
 @import "tailwindcss";
+body {
+  @apply overscroll-none;
+  background-image: url('/background.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+}
 
 /* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
